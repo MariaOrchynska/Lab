@@ -10,6 +10,6 @@ public void changingString(){
 String string =this.str.replaceAll("\\s+"," ");
 //String str2=this.str.toLowerCase(Locale.ROOT);
 //System.out.print(str);
-   System.out.print("\nsecond line :  "+string.toLowerCase(Locale.ROOT) );
+   System.out.print("\nsecond line  :  "+string.toLowerCase(Locale.ROOT) );
     }
 }
