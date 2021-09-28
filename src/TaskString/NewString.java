@@ -10,6 +10,11 @@ public void changingString(){
 String string =this.str.replaceAll("\\s+"," ");
 //String str2=this.str.toLowerCase(Locale.ROOT);
 //System.out.print(str);
-   System.out.print("\nsecond line :  "+string.toLowerCase(Locale.ROOT) );
+    String stringFormatted = string.toLowerCase(Locale.ROOT);
+    String newF=stringFormatted.substring(0,1);
+    String toUpper = stringFormatted.substring(1);
+    newF.toUpperCase(Locale.ROOT);
+    String firstLetter=toUpper+newF;
+   System.out.print("\nsecond line :  "+firstLetter );
     }
 }
