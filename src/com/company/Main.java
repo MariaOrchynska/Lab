@@ -3,6 +3,7 @@ package com.company;
 import Recursion.RecursiveMethod;
 import TaskString.NewString;
 import arrays.Arrays;
+import arrays.MoreArrays;
 
 public class Main {
 
@@ -11,7 +12,9 @@ public class Main {
 //        recursiveMethod.recursToStack();
 //        NewString newString = new NewString();
 //        newString.changingString();
-        Arrays arrays = new Arrays();
-        arrays.sortArray();
+//        Arrays arrays = new Arrays();
+//        arrays.sortArray();
+        MoreArrays moreArrays = new MoreArrays();
+        moreArrays.sortMoreArrays();
      }
 }
