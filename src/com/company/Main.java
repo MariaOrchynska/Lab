@@ -12,6 +12,6 @@ public class Main {
 //        NewString newString = new NewString();
 //        newString.changingString();
         Arrays arrays = new Arrays();
-        arrays.sortArrat();
+        arrays.sortArray();
      }
 }

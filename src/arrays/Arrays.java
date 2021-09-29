@@ -13,8 +13,9 @@ public class Arrays {
         System.arraycopy(numbers2, 0, result, n, n2);
         System.out.println("Merged arrays: "+ java.util.Arrays.toString(result));
         java.util.Arrays.sort(result);
-        System.out.println("Result : ");
-
+        System.out.println("Result  symbol by symbol: ");
+        System.out.println(java.util.Arrays.toString(result));
+        System.out.println("Each character in different arr : ");
         for (int i = 0;i< result.length; i++){
             System.out.print(java.util.Arrays.toString(new int[]{result[i]}));
         }
