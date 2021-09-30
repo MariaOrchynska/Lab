@@ -14,7 +14,6 @@ public class Main {
 //        newString.changingString();
 //        Arrays arrays = new Arrays();
 //        arrays.sortArray();
-        MoreArrays moreArrays = new MoreArrays();
-        moreArrays.sortMoreArrays();
-     }
+
+    }
 }
