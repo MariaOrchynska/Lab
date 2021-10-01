@@ -17,6 +17,6 @@ String str2=string.toLowerCase(Locale.ROOT);
         toUpperStr+=firstLetter.toUpperCase()+remLetters+" ";
     }
     System.out.println("Input : "+ str);
-    System.out.println("\nThe result line :  "+toUpperStr);
+    System.out.println("\nThe result  line :  "+toUpperStr);
  }
 }
